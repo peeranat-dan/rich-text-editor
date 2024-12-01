@@ -1,6 +1,6 @@
 {
   "name": "@peeranat-dan/rich-text-editor",
-  "private": true,
+  "author": "Nin",
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/index.umd.js",
