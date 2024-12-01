@@ -1,7 +1,7 @@
 {
   "name": "@peeranat-dan/rich-text-editor",
   "author": "Nin",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.2",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
@@ -26,7 +26,8 @@
     "format": "prettier --write ./lib",
     "check-types": "tsc --noEmit",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "release": "release-it"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.2",
@@ -70,6 +71,8 @@
     "lefthook": "^1.8.4",
     "postcss": "^8.4.49",
     "prettier": "^3.4.1",
+    "release-it": "^17.10.0",
+    "release-it-pnpm": "^4.6.3",
     "storybook": "^8.4.5",
     "tailwindcss": "^3.4.15",
     "turbo": "^2.3.3",
