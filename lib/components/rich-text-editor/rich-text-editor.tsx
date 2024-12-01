@@ -1,12 +1,16 @@
 import { EditorContent, useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import { SlashCommandsExtension } from '../../extensions';
+import { cn } from '../../utils/cn';
 
 const extensions = [StarterKit, SlashCommandsExtension];
 
-const content = '<p>Hello World!</p>';
+interface RichTextEditorProps {
+  content?: string;
+  className?: string;
+}
 
-const RichTextEditor = () => {
+const RichTextEditor = ({ content = '', className = 'border rounded-md' }: RichTextEditorProps) => {
   const editor = useEditor({
     extensions,
     content,
@@ -17,7 +21,7 @@ const RichTextEditor = () => {
     },
   });
 
-  return <EditorContent editor={editor} className="w-full border rounded-md" />;
+  return <EditorContent editor={editor} className={cn('w-full', className)} />;
 };
 
 export { RichTextEditor };
