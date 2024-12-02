@@ -1,5 +1,12 @@
 
 
+# [0.1.0](https://github.com/peeranat-dan/rich-text-editor/compare/0.0.1-alpha.6...0.1.0) (2024-12-02)
+
+
+### Features
+
+* add badge ([fd04ec1](https://github.com/peeranat-dan/rich-text-editor/commit/fd04ec13cf8a63b6496f72f299ebf293d88c096a))
+
 # [0.1.0](https://github.com/peeranat-dan/rich-text-editor/compare/0.0.1-alpha.5...0.1.0) (2024-12-02)
 
 
