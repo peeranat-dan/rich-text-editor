@@ -16,7 +16,8 @@ const RichTextEditor = ({ content = '', className = 'border rounded-md' }: RichT
     content,
     editorProps: {
       attributes: {
-        class: 'prose prose-sm sm:prose-base lg:prose-lg xl:prose-2xl m-5 focus:outline-none',
+        class:
+          'prose prose-sm space-y-4 sm:prose-base lg:prose-lg xl:prose-2xl m-5 focus:outline-none',
       },
     },
   });
