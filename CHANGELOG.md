@@ -1,5 +1,7 @@
 
 
+## [0.0.1](https://github.com/peeranat-dan/rich-text-editor/compare/0.0.1-alpha.4...0.0.1) (2024-12-02)
+
 ## [0.0.1-alpha.4](https://github.com/peeranat-dan/rich-text-editor/compare/0.0.1-alpha.3...0.0.1-alpha.4) (2024-12-01)
 
 
