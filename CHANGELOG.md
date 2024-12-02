@@ -1,5 +1,17 @@
 
 
+# [0.1.0](https://github.com/peeranat-dan/rich-text-editor/compare/0.0.1-alpha.5...0.1.0) (2024-12-02)
+
+
+### Bug Fixes
+
+* remove inside that make styling weird ([2c5050c](https://github.com/peeranat-dan/rich-text-editor/commit/2c5050c566e5b6fbfc650758e4fd4a080d0aabaf))
+
+
+### Features
+
+* add spacing in rich text editor ([73bd611](https://github.com/peeranat-dan/rich-text-editor/commit/73bd611dcd98b1010222fa7c2a09b4f3dbd36b81))
+
 # [0.1.0](https://github.com/peeranat-dan/rich-text-editor/compare/0.0.1-alpha.4...0.1.0) (2024-12-02)
 
 
