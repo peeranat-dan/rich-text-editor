@@ -1,9 +1,9 @@
 import { EditorContent, useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
-import { SlashCommandsExtension } from '../../extensions';
+import { ImageExtension, SlashCommandsExtension } from '../../extensions';
 import { cn } from '../../utils/cn';
 
-const extensions = [StarterKit, SlashCommandsExtension];
+const extensions = [StarterKit, SlashCommandsExtension, ImageExtension];
 
 interface RichTextEditorProps {
   content?: string;
